@@ -9,7 +9,7 @@ The second task was to optimize a fictitious pizza menu page consisting of anima
 Both tasks made use of multiple web performance best practices such as concatenating and minifying files to minimize http requests, optimizing images so that they load faster, minimizing the effects of render-blocking JavaScript and CSS, enabling file compressions and browser cache controls, etc.
 
 ## Links to GitHub Repository (Master Branch)
-* GitHub Project Repository: [https://github.com/ajeet-yadv/frontend-nanodegree-web-performance-optimization/](https://github.com/ajeet-yadav/frontend-nanodegree-web-performance-optimization/ "GitHub project repository")
+* GitHub Project Repository: [https://github.com/ajeet-yadav/frontend-nanodegree-web-performance-optimization/](https://github.com/ajeet-yadav/frontend-nanodegree-web-performance-optimization/ "GitHub project repository")
 * GitHub Pages Demo: [http://ajeet-yadav.github.io/frontend-nanodegree-web-performance-optimization/](http://ajeet-yadav.github.io/frontend-nanodegree-web-performance-optimization/ "GitHub Pages demo")
 
 ## Tools / Techniques
