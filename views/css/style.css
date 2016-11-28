@@ -1,0 +1,100 @@
+    * {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Trebuchet MS", Helvetica, sans-serif;
+      background: black;
+    }
+
+    input {
+      background: grey;
+      font-size: 18px;
+    }
+ 
+    form {
+      display: inline-block;
+    }
+
+    .centered {
+      text-align: center;
+    }
+
+    #pizzaSize {
+      font-weight: 800;
+    }
+
+    .mover {
+      background-image: url("images/pizza_mover.png");
+      position: fixed;
+      z-index: -1;
+      height: 94px;
+      width: 73px;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+
+    .randomPizzaContainer {
+      float: left;
+      display: flex;
+      width: 33.33%;
+      height: 325px;
+    }
+
+    .randomPizzaContainer img {
+      background-image: url("images/pizza.png");
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+
+    .randomPizzaContainer:after {
+      content: "";
+      display: table;
+      clear:both;
+    }
+
+    .smallPizzas {
+      width: 75px;
+      height: auto;
+    }
+
+    .mediumPizzas {
+      width: 94px;
+      height: auto;  
+    }
+
+    .largePizzas {
+      width: 125px;
+      height: auto;    
+    }
+
+    .container {
+      background-color: rgba(240, 60, 60, 0.8);
+    }
+
+    /* Media Queries */
+
+    @media only screen and (max-width: 991px) {
+      .col-md-4 img.img-responsive {
+        background-image: url('images/pizzeria-720.jpg');
+        width: 720px;
+        height: 540px;
+      }
+    }
+
+    @media only screen and (min-width: 992px) {
+      .col-md-4 img.img-responsive {
+        background-image: url('images/pizzeria-360.jpg');
+        max-width: 360px;
+        width: 360px;
+        height: 270px;
+      }
+      .col-md-12.hundreds-recipes {
+        width: 90%;
+        margin-left: 10%;
+      }
+    }
