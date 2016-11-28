@@ -10,7 +10,7 @@ Both tasks made use of multiple web performance best practices such as concatena
 
 ## Links to GitHub Repository (Master Branch)
 * GitHub Project Repository: [https://github.com/ajeet-yadav/frontend-nanodegree-web-performance-optimization/](https://github.com/ajeet-yadav/frontend-nanodegree-web-performance-optimization/ "GitHub project repository")
-* GitHub Pages Demo: [http://ajeet-yadav.github.io/frontend-nanodegree-web-performance-optimization/](http://ajeet-yadav.github.io/frontend-nanodegree-web-performance-optimization/ "GitHub Pages demo")
+* GitHub Pages Demo: [https://ajeet-yadav.github.io/frontend-nanodegree-web-performance-optimization-mobile-portfolio-master/](http://ajeet-yadav.github.io/frontend-nanodegree-web-performance-optimization/ "GitHub Pages demo")
 
 ## Tools / Techniques
 - Critical rendering path optimizations to minimize render-blocking JS and CSS 
