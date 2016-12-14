@@ -5,7 +5,7 @@
 This project has two main, but separate, tasks. The first task was to optimize a (mock) portfolio page for both mobile and web browsers. Optimizations produced a Google Pagespeed Insights score of 94% or better.
 
 The second task was to optimize a fictitious pizza menu page consisting of animated, scrolling, graphics so that the animations run at an average rate of 60 FPS.
-
+ 
 Both tasks made use of multiple web performance best practices such as concatenating and minifying files to minimize http requests, optimizing images so that they load faster, minimizing the effects of render-blocking JavaScript and CSS, enabling file compressions and browser cache controls, etc.
 
 ## Links to GitHub Repository (Master Branch)
